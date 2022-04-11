@@ -33,7 +33,7 @@ window.addEventListener("load", function() {
 
 	/* ---------------- Slow Down ---------------- */
 	document.querySelector("#slower").addEventListener("click", function() {
-    video.playbackRate -= (0.05 * video.playbackRate);
+    video.playbackRate -= 0.95;
 	console.log("New speed is  " + video.playbackRate);
 	});
 
